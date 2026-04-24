@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syed Shafiullah SF | Java FullStack Developer</title>
+    <meta name="description"
+        content="Portfolio of Syed Shafiullah, Java FullStack Developer specializing in Spring Boot, React, and modern web architectures.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@500;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-bar" id="scroll-progress"></div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Syed.</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" aria-label="Toggle Theme">
+                <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+                <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+            </button>
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section-reveal">
+            <div class="hero-content">
+                <span class="greeting">Hello, I'm</span>
+                <h1 class="name">SYED SHAFIULLAH SF</h1>
+                <h2 class="role"><span class="typed-text"></span><span class="typing-cursor">&nbsp;</span></h2>
+                <p class="objective">
+                    Ambitious Engineering student (2022-2026) passionate about backend and full-stack development.
+                    Skilled in Java, Spring-Boot, and modern web technologies with a strong drive for problem-solving
+                    and building scalable systems.
+                </p>
+                <div class="cta-group">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    <a href="certificates/SYED SHAFIULLAH SF _ Resume.pdf" class="btn btn-outline"
+                        download="Syed_Shafiullah_Resume.pdf">Download Resume</a>
+                </div>
+                <div class="social-links-hero">
+                    <a href="https://linkedin.com/in/syedshafi2004" target="_blank" aria-label="LinkedIn"
+                        class="social-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                        </svg>
+                    </a>
+                    <a href="mailto:syedshafiullah2004@gmail.com" aria-label="Email" class="social-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="images/myphoto.png" alt="Syed Shafiullah Profile" class="avatar-img">
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-reveal">
+            <h2 class="section-title">Technical Expertise</h2>
+            <div class="skills-grid">
+                <!-- Programming Languages -->
+                <div class="skill-category glass-card">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Java</span><span>100%</span></div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 100%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>JavaScript</span><span>80%</span></div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>HTML & CSS</span><span>85%</span></div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Python</span><span>85%</span></div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frameworks -->
+                <div class="skill-category glass-card">
+                    <h3>Frameworks</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Spring Boot</span><span>85%</span></div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>React</span><span>50%</span></div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools -->
+                <div class="skill-category glass-card">
+                    <h3>Tools</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Git / GitHub</span><span>85%</span></div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Firebase</span><span>50%</span></div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>PostMan</span><span>70%</span></div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Databases -->
+                <div class="skill-category glass-card">
+                    <h3>Databases</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info"><span>MySQL</span><span>85%</span></div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>PostgreSQL</span><span>70%</span></div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Other Skills -->
+                <div class="skill-category glass-card">
+                    <h3>Other Skills</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info"><span>REST APIs</span><span>90%</span></div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Problem Solving</span><span>90%</span></div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-reveal">
+            <h2 class="section-title">Featured Projects</h2>
+            
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="java">Java & Spring</button>
+                <button class="filter-btn" data-filter="react">React</button>
+                <button class="filter-btn" data-filter="web">HTML/CSS/JS</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 4 -->
+                <div class="project-card glass-card p-0 project-card-filterable" data-category="java">
+                    <img src="images/library.png" alt="Library Management System" class="project-img">
+                    <div class="project-content">
+                        <span class="project-year">2024</span>
+                        <h3>Library Management System</h3>
+                        <p>A robust system designed to streamline the management of library books, member records, and
+                            digital borrowing.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Syedshafiullah160904/Library-Management-System" target="_blank"
+                                class="github-link">View Source</a>
+                        </div>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>MySQL</span>
+                            <span>jdbc</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card glass-card p-0 project-card-filterable" data-category="java">
+                    <img src="images/food.png" alt="Online Food Ordering System" class="project-img">
+                    <div class="project-content">
+                        <span class="project-year">2025</span>
+                        <h3>Online Food Ordering</h3>
+                        <p>A comprehensive food ordering system handling multiple restaurants, orders, and interactive
+                            user flows.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Syedshafiullah160904/Online-Food-ordering" target="_blank"
+                                class="github-link">View Source</a>
+                        </div>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>MySQL</span>
+                            <span>jdbc</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Project 7 -->
+                <div class="project-card glass-card p-0 project-card-filterable" data-category="java web">
+                    <img src="images/banking.png" alt="Banking Console App" class="project-img">
+                    <div class="project-content">
+                        <span class="project-year">2026</span>
+                        <h3>Banking Console App</h3>
+                        <p>A dedicated banking simulation designed in Java for fast console interactions securely
+                            holding state and wallets.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Syedshafiullah160904/banking-concole-app-java" target="_blank"
+                                class="github-link">View Source</a>
+                        </div>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>MySQL</span>
+                            <span>jdbc</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 1 -->
+                <div class="project-card glass-card p-0 project-card-filterable" data-category="java web">
+                    <img src="images/grocery.png" alt="Grocery Delivery Application" class="project-img">
+                    <div class="project-content">
+                        <span class="project-year">2025</span>
+                        <h3>Grocery Delivery Application</h3>
+                        <p>A comprehensive full-stack grocery delivery system supporting product listing, cart
+                            management, and order processing.</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>MySQL</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>JWT</span>
+                            <span>Security</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card p-0 project-card-filterable" data-category="java react">
+                    <img src="images/skills.png" alt="Skill Gap Analysis" class="project-img">
+                    <div class="project-content">
+                        <span class="project-year">2025</span>
+                        <h3>Skill Gap Analysis System</h3>
+                        <p>An AI-driven platform for skill evaluation and personalized learning recommendations
+                            utilizing a multi-agent architecture.</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>React</span>
+                            <span>Firebase</span>
+                            <span>AI Agents</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 8 -->
+                <div class="project-card glass-card p-0 project-card-filterable" data-category="java web">
+                    <img src="images/wifi.png" alt="WiFi Credentials Card Generator" class="project-img">
+                    <div class="project-content">
+                        <span class="project-year">2026</span>
+                        <h3>WiFi Credentials Generator</h3>
+                        <p>A simple and modern desktop utility to quickly generate shareable connection cards for WiFi
+                            access.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Syedshafiullah160904/WiFi-Credentials-Card-Generator"
+                                target="_blank" class="github-link">View Source</a>
+                        </div>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 9 -->
+                <div class="project-card glass-card p-0 project-card-filterable" data-category="web">
+                    <img src="images/checklist.png" alt="MY Checklist" class="project-img">
+                    <div class="project-content">
+                        <span class="project-year">2024</span>
+                        <h3>My Checklist</h3>
+                        <p>A productivity-focused dynamic checklist application designed for tracking personal coding
+                            goals.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Syedshafiullah160904/MY-Checklist" target="_blank"
+                                class="github-link">View Source</a>
+                        </div>
+                        <div class="project-tech">
+                            <span>HTML/CSS/JS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 10 -->
+                <div class="project-card glass-card p-0 project-card-filterable" data-category="java web">
+                    <img src="images/calculator.png" alt="Calculator" class="project-img">
+                    <div class="project-content">
+                        <span class="project-year">2024</span>
+                        <h3>Calculator App</h3>
+                        <p>A sleek mathematical utility handling standard arithmetic functionalities with a modern glass
+                            interface.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Syedshafiullah160904/Calculator" target="_blank"
+                                class="github-link">View Source</a>
+                        </div>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 11 -->
+                <div class="project-card glass-card p-0 project-card-filterable" data-category="java">
+                    <img src="images/student.png" alt="Student Management System" class="project-img">
+                    <div class="project-content">
+                        <span class="project-year">2025</span>
+                        <h3>Student Management System</h3>
+                        <p>A highly cohesive database-driven program to handle grades, schedules, and student enrollment
+                            records.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Syedshafiullah160904/Student-Management-System-" target="_blank"
+                                class="github-link">View Source</a>
+                        </div>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>JDBC</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 12 -->
+                <div class="project-card glass-card p-0 project-card-filterable" data-category="java">
+                    <img src="images/finance.png" alt="Finance Management System" class="project-img">
+                    <div class="project-content">
+                        <span class="project-year">2024</span>
+                        <h3>Finance Management System</h3>
+                        <p>A dedicated finance management backend built with Java to handle transactions, tracking, and
+                            budgeting.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Syedshafiullah160904/Finance-Management-System" target="_blank"
+                                class="github-link">View Source</a>
+                        </div>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>JDBC</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Certifications -->
+        <section id="education" class="education section-reveal">
+            <h2 class="section-title">Education & Certifications</h2>
+            <div class="edu-cert-container">
+                <div class="timeline glass-card">
+                    <h3>Education</h3>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>B.E. Electronics & Communication</h4>
+                            <p class="timeline-org">Panimalar Engineering College, Chennai</p>
+                            <p class="timeline-date">2022 - 2026 | CGPA: 8.24/10</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>Higher Secondary</h4>
+                            <p class="timeline-org">Govt ADW Hr Sec School, Chennai</p>
+                            <p class="timeline-date">Score: 74.33%</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>High School</h4>
+                            <p class="timeline-org">Govt High School, Pattur</p>
+                            <p class="timeline-date">Score: 71.4%</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certifications glass-card">
+                    <h3>Certifications</h3>
+                    <ul class="cert-list">
+                        <li>
+                            <svg class="cert-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            <a href="certificates/Java Developer.pdf" target="_blank" class="cert-link">Java
+                                Developer</a>
+                        </li>
+                        <li>
+                            <svg class="cert-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            <a href="certificates/Front End Web Developer.pdf" target="_blank" class="cert-link">Front
+                                End Web Developer</a>
+                        </li>
+                        <li>
+                            <svg class="cert-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            <a href="certificates/Hackerrank software_engineer.pdf" target="_blank"
+                                class="cert-link">Software Engineer – HackerRank</a>
+                        </li>
+                        <li>
+                            <svg class="cert-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            <a href="certificates/Hackerrrank software_engineer_intern certificate.pdf" target="_blank"
+                                class="cert-link">Software Engineer Intern – HackerRank</a>
+                        </li>
+                        <li>
+                            <svg class="cert-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            <a href="certificates/Simplilearn - Introduction to Cloud computing.pdf" target="_blank"
+                                class="cert-link">Introduction to Cloud Computing – Simplilearn</a>
+                        </li>
+                        <li>
+                            <svg class="cert-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            <a href="certificates/InfosysSpringboard   Interacting AWS with cloud.pdf" target="_blank"
+                                class="cert-link">Interacting AWS with Cloud – Infosys Springboard</a>
+                        </li>
+                        <li>
+                            <svg class="cert-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            <a href="certificates/Python Foundation.pdf" target="_blank" class="cert-link">Python
+                                Foundation</a>
+                        </li>
+                        <li>
+                            <svg class="cert-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            <a href="certificates/Artificial Intelligence Primer Certification.pdf" target="_blank"
+                                class="cert-link">Artificial Intelligence Primer</a>
+                        </li>
+                        <li>
+                            <svg class="cert-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            <a href="certificates/Udemy SQL.pdf" target="_blank" class="cert-link">SQL Bootcamp –
+                                Udemy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-reveal">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-wrapper">
+                <!-- Left Column: Contact Info -->
+                <div class="contact-info-col glass-card">
+                    <h3>Get In Touch</h3>
+                    <p class="contact-text">I'm currently looking for new opportunities. Whether you have a question or
+                        just want to say hi, I'll try my best to get back to you!</p>
+
+                    <div class="contact-links">
+                        <a href="mailto:syedshafiullah2004@gmail.com" class="contact-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                </path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            syedshafiullah2004@gmail.com
+                        </a>
+                        <a href="tel:+917092269312" class="contact-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                </path>
+                            </svg>
+                            +91 7092269312
+                        </a>
+
+                        <div class="social-links-hero mt-3">
+                            <!-- LinkedIn -->
+                            <a href="https://linkedin.com/in/syedshafi2004" target="_blank" class="social-icon"
+                                title="LinkedIn">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                                    width="24">
+                            </a>
+                            <!-- GitHub -->
+                            <a href="https://github.com/Syedshafiullah160904" target="_blank" class="social-icon"
+                                title="GitHub">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                                    width="24">
+                            </a>
+                            <!-- LeetCode -->
+                            <a href="https://leetcode.com/u/syed2004" target="_blank" class="social-icon"
+                                title="LeetCode">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
+                                    width="24">
+                            </a>
+                            <!-- GeeksForGeeks -->
+                            <a href="https://gfg.org/profile/syedshafiuhhmg" target="_blank" class="social-icon"
+                                title="GeeksForGeeks">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg"
+                                    width="24">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Contact Form -->
+                <div class="contact-form-col glass-card">
+                    <form class="contact-form" action="#" method="POST"
+                        onsubmit="event.preventDefault(); alert('Form functionality requires a backend service (e.g., Formspree).');">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" required
+                                placeholder="Hello Syed, I'd like to discuss..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>Syed.</h3>
+                <p>Java FullStack Developer specializing in building robust, scalable applications.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Socials</h4>
+                <div class="footer-socials">
+                    <a href="https://linkedin.com/in/syedshafi2004" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/Syedshafiullah160904" target="_blank">GitHub</a>
+                    <a href="https://leetcode.com/u/syed2004" target="_blank">LeetCode</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Syed Shafiullah. All rights reserved. <span id="terminal-trigger" style="opacity: 0.1; cursor: pointer; user-select: none;">_</span></p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to Top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
+    </button>
+
+    <!-- Hidden Terminal Modal -->
+    <div id="terminal-modal" class="terminal-modal">
+        <div class="terminal-window">
+            <div class="terminal-header">
+                <div class="terminal-buttons">
+                    <span class="close-btn" id="close-terminal"></span>
+                    <span class="min-btn"></span>
+                    <span class="max-btn"></span>
+                </div>
+                <div class="terminal-title">syed@portfolio: ~</div>
+            </div>
+            <div class="terminal-body" id="terminal-body">
+                <div class="terminal-line"><span class="terminal-success">Welcome to Syed's interactive terminal!</span></div>
+                <div class="terminal-line">Type <span class="terminal-command">help</span> for a list of available commands.</div>
+            </div>
+            <div class="terminal-input-line">
+                <span class="terminal-prompt">syed@portfolio:~$</span>
+                <input type="text" id="terminal-input" autocomplete="off" spellcheck="false" autofocus>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
